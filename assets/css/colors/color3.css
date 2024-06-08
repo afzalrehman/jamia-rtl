@@ -38,7 +38,7 @@
 .team-box2:hover,
 .model-close:hover
 {
-	/* background-color: #2D3192; */
+	background-color: #2D3192;
 }
 
 /*===== Text Color =====*/
@@ -147,7 +147,7 @@ nav div > ul li a:focus:before,
 .prtfl-box:before,
 .fltr-lnks > li a:before
 {
-	/* background-color: #2a486c; */
+	background-color: #2a486c;
 }
 
 .sec-title-inner:before,
