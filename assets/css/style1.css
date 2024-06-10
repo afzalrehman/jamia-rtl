@@ -561,7 +561,7 @@ margin-bottom: 20px;
 }
 /* ------------contact ---------------- */
 .main_contact1{
-    margin: 440px 0px 80px 0px;
+    padding:80px 0px 0px 0px;
 }
 .unique-contact-container {
     /* margin-top: 200px; */
@@ -628,7 +628,7 @@ margin-bottom: 20px;
 
 .contact-section1 {
     margin: 20px 0;
-    padding: 20px;
+    /* padding: 20px 0px !important; */
     border-radius: 10px 10px 5px 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     /* background-color: #2D3192; */
