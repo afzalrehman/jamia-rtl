@@ -6,7 +6,7 @@
   function initMap() {
     var map = new google.maps.Map(document.getElementById('contact-loc'), {
       zoom: 13,
-      center: {lat: 59.325, lng: 18.070}
+      center: {lat: 24.8607, lng: 67.0011}  // New center location (Karachi, Pakistan)
     });
     var image = 'assets/images/map-icon.png';
 
@@ -14,7 +14,7 @@
       map: map,
       draggable: true,
       animation: google.maps.Animation.DROP,
-      position: {lat: 59.327, lng: 18.067},
+      position: {lat:24.84, lng:67.17},  // New marker location (Karachi, Pakistan)
       icon: image
     });
     marker.addListener('click', toggleBounce);
