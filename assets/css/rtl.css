@@ -4,12 +4,16 @@
 ===================================================== ***/
 
 /*===== Google Fonts =====*/
-@import url('https://fonts.googleapis.com/css?family=Mada:400,600,700&amp;display=swap&amp;subset=arabic');
-@import url('https://fonts.googleapis.com/css?family=Mada:400,600,700&display=swap&subset=arabic');
+/* @import url('https://fonts.googleapis.com/css?family=Mada:400,600,700&amp;display=swap&amp;subset=arabic');
+@import url('https://fonts.googleapis.com/css?family=Mada:400,600,700&display=swap&subset=arabic'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
 
 
 
 /*===== font urdu Styling =====*/
+body{
+  font-family: "Noto Nastaliq Urdu", serif !important;
+}
 
 @font-face {
   font-family: "Jameel-Kasheeda";
