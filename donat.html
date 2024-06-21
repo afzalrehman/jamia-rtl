@@ -24,21 +24,116 @@
     <!-- Color Scheme -->
     <link rel="stylesheet" href="assets/css/colors/color3.css" /><!-- Color -->
 </head>
+<style>
+    .support-section {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+    }
+
+    .support-section h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #2D3192;
+        text-align: right;
+    }
+
+    .support-section p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        color: #666;
+        text-align: right;
+    }
+
+    .bank-details,
+    .contact-methods,
+    .other-information {
+        margin-top: 40px;
+    }
+
+    .bank-details h2,
+    .contact-methods h2,
+    .other-information h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+        color: #2D3192;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    th,
+    td {
+        padding: 15px;
+        text-align: right;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #2D3192;
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    td {
+        font-size: 1em;
+        color: #555;
+    }
+
+    ul{
+        text-align: right;
+    }
+    @media (max-width: 768px) {
+        .support-section {
+            padding: 40px 10px;
+        }
+
+        .support-section h2 {
+            font-size: 2em;
+        }
+
+        .support-section p {
+            font-size: 1em;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        table,
+        thead,
+        tbody,
+        th,
+        td,
+        tr {
+            display: block;
+        }
+
+        tr {
+            margin-bottom: 15px;
+        }
+
+        th {
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+
+        td {
+            padding: 10px 5px;
+            position: relative;
+        }
+    }
+</style>
 
 <body>
     <main>
-        <!-- <div class="pageloader-wrap">
-            <img src="assets/images/logo35.png" style="padding: 70px !important;" class="loader__logo " alt="">
-            <div class="loader">
-                <div class="loader__bar"></div>
-                <div class="loader__bar"></div>
-                <div class="loader__bar"></div>
-                <div class="loader__bar"></div>
-                <div class="loader__bar"></div>
-                <div class="loader__ball"></div>
-            </div>
-        </div> -->
-        <!-- Pageloader Wrap -->
         <div class="sidepanel">
             <span><i class="fa fa-cog fa-spin"></i></span>
             <div class="color-picker">
@@ -167,7 +262,7 @@
                         </ul>
                     </li>
                     <li><a href="#" title="">ہمارے بارے میں</a></li>
-                    <li><a href="contact.html" title="">  رابطہ </a></li>
+                    <li><a href="contact.html" title=""> رابطہ </a></li>
                 </ul>
             </div>
             <!-- Responsive Menu -->
@@ -189,169 +284,78 @@
                 </div>
             </div>
         </section>
-        <div class="container">
-            <div class="row  main_contact1 ">
-                <div class="col-lg-5 ">
-                    <div class="unique-contact-container">
-                        <div class="unique-contact-heading-container">
-                            <div class="unique-contact-heading" onclick="toggleContactDetails('ittamam')">دفترِ اہتمام
-                            </div>
-                            <div class="unique-contact-heading" onclick="toggleContactDetails('taleemat')">دفتر تعلیمات
-                            </div>
-                        </div>
 
-                        <div id="ittamam" class="unique-contact-details unique-contact-details1">
-                            <table class="unique-contact-table">
-                                <thead>
-                                    <tr>
-                                        <th>Email</th>
-                                        <th>Contact Number</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>ittamam@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35049774-6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ittamam@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35123434-6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ittamam@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35123434-6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ittamam@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35123434-6</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+        <section class="support-section">
+            <div class="container">
+                <h2>طریقہ تعاون</h2>
+                <p>جامعہ دارالعلوم حسینیہ ایک معروف دینی ادارہ ہے جو اسلامی تعلیمات کی ترویج اور تعلیم کے لیے اہم کردار
+                    ادا کر رہا ہے۔ اس مدرسے کی بہتری اور اس کے طلباء کی تعلیم و تربیت کے لیے آپ کے تعاون کی ضرورت ہے۔ آپ
+                    کی دی گئی مالی مدد سے مدرسے کی بہتری اور استحکام میں مدد ملے گی اور آپ کو دنیا و آخرت میں بہترین اجر
+                    حاصل ہوگا۔</p>
 
-                        <div id="taleemat" class="unique-contact-details">
-                            <table class="unique-contact-table">
-                                <thead>
-                                    <tr>
-                                        <th>Email</th>
-                                        <th>Contact Number</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>taleemat@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35042705</td>
-                                    </tr>
-                                    <tr>
-                                        <td>taleemat@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35046882</td>
-                                    </tr>
-                                    <tr>
-                                        <td>taleemat@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35046882</td>
-                                    </tr>
-                                    <tr>
-                                        <td>taleemat@darululoomkarachi.edu.pk</td>
-                                        <td>(92) (21) 35046882</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                <p>تعاون کے مختلف طریقے ہیں جن میں چندہ، صدقہ، زکوٰة، اور دیگر مالی امداد شامل ہیں۔ آپ نیچے دیئے گئے
+                    بینک اکاؤنٹ میں اپنی مالی مدد جمع کروا سکتے ہیں:</p>
+
+                <div class="bank-details">
+                    <h2>بینک تفصیلات</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>بینک کا نام</th>
+                                <th>اکاؤنٹ نمبر</th>
+                                <th>IBAN</th>
+                                <th>شاخ کا پتہ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="بینک کا نام">Meezan Bank Ltd</td>
+                                <td data-label="اکاؤنٹ نمبر">9928 0100569972</td>
+                                <td data-label="IBAN">PK23 MEZN 009928 0100569972</td>
+                                <td data-label="شاخ کا پتہ">جامعہ دارالعلوم حسینیہ کورنگی صنعتی علاقہ، کراچی</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
-                <div class="col-lg-7 ">
-                    <div class="contact-section1">
-                        <h2 class="hedding_contact text-center pt-5">Contact Darul Uloom Hussiania</h2>
-                        <div class="contact-details">
-                            <table>
-                                <tr>
-                                    <td>Korangi Industrial Area, Karachi Pakistan</td>
-                                    <td class="label">:Location</td>
-                                </tr>
-                                <tr>
-                                    <td>75180</td>
-                                    <td class="label">:Post Code</td>
-                                </tr>
-                                <tr>
-                                    <td>(92) (21) 35049774-6 / 35123434-6, 35042705 / 35046882 / 35040924</td>
-                                    <td class="label">:Phone</td>
-                                </tr>
-                                <tr>
-                                    <td>(92) (21) 35032366, 35041923</td>
-                                    <td class="label">:Fax</td>
-                                </tr>
-                                <tr>
-                                    <td>info@darululoomkarachi.edu.pk</td>
-                                    <td class="label">:E-mail</td>
-                                </tr>
-                                <tr>
-                                    <td>9928 0100569972</td>
-                                    <td class="label">:Meezan Bank Account No.</td>
-                                </tr>
-                                <tr>
-                                    <td>PK23 MEZN 009928 0100569972</td>
-                                    <td class="label">:IBAN</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
+                <div class="contact-methods">
+                    <h2>مزید تعاون کے طریقے</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>طریقہ</th>
+                                <th>تفصیلات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="طریقہ">EasyPaisa</td>
+                                <td data-label="تفصیلات">0345-1234567</td>
+                            </tr>
+                            <tr>
+                                <td data-label="طریقہ">JazzCash</td>
+                                <td data-label="تفصیلات">0345-7654321</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
-        </div>
 
-
-
-
-
-
-        <section>
-            <div class="gap">
-                <div class="container">
-                   
-                    <div class="sec-title text-center">
-                        <div class="sec-title-inner">
-                            <span>Have Question</span>
-                            <h3>Send Message</h3>
-                        </div>
-                    </div>
-                    <div class=" text-center">
-                        <form>
-                            <div class="row ">
-                                <div class="col-md-6 col-sm-6 pt-3 col-lg-6">
-                                    <input type="text" class="form-control"  placeholder="Name">
-                                </div>
-                                <div class="col-md-6 col-sm-6 pt-3 col-lg-6">
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                </div>
-                                <div class="col-md-6 col-sm-6 pt-3 col-lg-6">
-                                    <input type="email" class="form-control" placeholder="Email">
-                                </div>
-                                <div class="col-md-6 col-sm-6 pt-3 col-lg-6">
-                                    <input type="text" class="form-control" placeholder="Subject">
-                                </div>
-                                <div class="col-md-12 col-sm-12  pt-3  col-lg-12">
-                                    <textarea placeholder="Message" class="form-control mb-4"></textarea>
-                                    <button class="thm-btn brd-rd40 pt-3" type="submit">Contact Us</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            </div>
-        <!-- </section> -->
-
-        <section>
-            <div class="gap no-gap">
-                <div class="contact-loc" >
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115859.17705712919!2d67.08842432037059!3d24.84337379419243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a6946278ced%3A0x6d9482074c338344!2sDarululoom%20Hussainia!5e0!3m2!1sen!2s!4v1718048933621!5m2!1sen!2s"
-                        width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="other-information">
+                    <h2>مزید معلومات</h2>
+                    <p>آپ کی دی گئی مالی مدد مدرسے کے مختلف شعبوں میں خرچ کی جائے گی جس میں طلباء کی تعلیم و تربیت،
+                        مدرسے کی تعمیر و ترقی، اور دیگر فلاحی کام شامل ہیں۔ اللہ تعالیٰ آپ کے اس نیک کام کو قبول فرمائے
+                        اور آپ کو اس کا بہترین اجر عطا فرمائے۔ آمین</p>
+                    <p>مزید معلومات کے لیے ہماری ویب سائٹ دیکھیں یا ہمارے دفتر سے رابطہ کریں:</p>
+                    <ul>
+                        <li>ویب سائٹ: <a href="http://www.darululoomkarachi.edu.pk"
+                                target="_blank">www.darululoomkarachi.edu.pk</a></li>
+                        <li>فون نمبر: 021-12345678</li>
+                        <li>ای میل: info@darululoomkarachi.edu.pk</li>
+                    </ul>
                 </div>
             </div>
         </section>
+
         <footer>
             <div class="gap top-spac70 drk-bg2 remove-bottom">
                 <div class="container">

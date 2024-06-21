@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
 
-body{
+body {
     font-family: "Noto Nastaliq Urdu", serif !important;
-  }
+}
 
 .nav-box {
     display: flex;
@@ -84,7 +84,7 @@ margin-bottom: 20px;
 
 .sub-heading {
     font-size: 24px;
-    color: #FFF100 !important;
+    color: #7a7979 !important;
     /* Sub-heading color */
     margin-bottom: 10px;
     display: block;
@@ -108,8 +108,7 @@ margin-bottom: 20px;
     display: inline-block;
     padding: 10px 20px;
     background-color: #2D3192;
-    /* Button background color */
-    color: #FFF;
+    color: #FFF100;
     font-size: 16px;
     text-decoration: none;
     border-radius: 5px;
@@ -118,8 +117,9 @@ margin-bottom: 20px;
 }
 
 .learn-more-btn:hover {
-    background-color: #EC1F24;
-    /* Button hover color */
+    background-color: #ffffff;
+    color: #2D3192;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -142,8 +142,7 @@ margin-bottom: 20px;
     display: inline-block;
     padding: 8px 16px;
     background-color: #2D3192;
-    /* Button background color */
-    color: #FFF;
+    color: #FFF100;
     font-size: 14px;
     text-decoration: none;
     border-radius: 5px;
@@ -152,9 +151,9 @@ margin-bottom: 20px;
 }
 
 .view-more-btn:hover {
-    background-color: #EC1F24;
-    /* Button hover color */
-    color: white;
+    background-color: #ffffff;
+    color: #2D3192;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .team-scl {
@@ -220,7 +219,7 @@ margin-bottom: 20px;
 }
 
 .srv-info2 a:hover {
-    color: #0056b3;
+    color: #ffffff;
 }
 
 .srv-box3 {
@@ -296,7 +295,8 @@ margin-bottom: 20px;
 }
 
 .srv-info2 a:hover {
-    background-color: #2D3192;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
 }
 
@@ -333,7 +333,7 @@ margin-bottom: 20px;
 
 .video-category-btn {
     background-color: #2D3192;
-    color: white;
+    color: #FFF100;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -344,7 +344,9 @@ margin-bottom: 20px;
 }
 
 .video-category-btn:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
+    color: #2D3192;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .category-section {
@@ -496,7 +498,7 @@ margin-bottom: 20px;
 
 .blog-category-btn-unique {
     background-color: #2D3192;
-    color: white;
+    color: #FFF100;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -508,7 +510,9 @@ margin-bottom: 20px;
 
 .blog-category-btn-unique:hover,
 .blog-category-btn-unique.active {
-    background-color: #2D3192;
+    background-color: #ffffff;
+    color: #2D3192;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .category-section-unique {
@@ -533,7 +537,7 @@ margin-bottom: 20px;
 .blog-content-unique .read-more-btn {
     display: inline-block;
     background-color: #2D3192;
-    color: white;
+    color: #FFF100 !important;
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
@@ -542,7 +546,9 @@ margin-bottom: 20px;
 }
 
 .blog-content-unique .read-more-btn:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
+    color: #2D3192 !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .blog-content-unique .full-content {
@@ -566,7 +572,7 @@ margin-bottom: 20px;
 }
 
 /* ==== Blog Details ===== */
-.blog-detail-desc p{
+.blog-detail-desc p {
     font-size: 18px;
     word-spacing: 3px;
 }
@@ -574,9 +580,10 @@ margin-bottom: 20px;
 
 
 /* ------------contact ---------------- */
-.main_contact1{
-    padding:80px 0px 0px 0px;
+.main_contact1 {
+    padding: 80px 0px 0px 0px;
 }
+
 .unique-contact-container {
     /* margin-top: 200px; */
     display: flex;
@@ -617,13 +624,13 @@ margin-bottom: 20px;
     /* width: 100%; */
 }
 
-.unique-contact-details1{
+.unique-contact-details1 {
     display: block;
 }
 
 .unique-contact-table {
     width: 100%;
-    
+
     border-collapse: collapse;
     margin-top: 10px;
 }
@@ -631,7 +638,7 @@ margin-bottom: 20px;
 .unique-contact-table th,
 .unique-contact-table td {
     /* border: 1px solid #ddd; */
-      border: 1px solid #4d00b1;    
+    border: 1px solid #4d00b1;
     padding: 8px;
     text-align: center;
 }

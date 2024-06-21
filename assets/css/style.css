@@ -4019,12 +4019,12 @@ blockquote p i.fa {
 
 .wdgt-box > h4:before
 {
-  background-image: -moz-linear-gradient(0deg, rgba(209,173,60,1) 0%, rgba(208,210,216,0) 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(209,173,60,1)), color-stop(100%, rgba(208,210,216,0)));
-  background-image: -webkit-linear-gradient(0deg, rgba(209,173,60,1) 0%, rgba(208,210,216,0) 100%);
-  background-image: -o-linear-gradient(0deg, rgba(209,173,60,1) 0%, rgba(208,210,216,0) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(209,173,60,1) 0%, rgba(208,210,216,0) 100%);
-  background-image: linear-gradient(90deg, rgba(209,173,60,1) 0%, rgba(208,210,216,0) 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgb(45, 49, 146)), color-stop(100%, rgba(208,210,216,0)));
+  background-image: -webkit-linear-gradient(0deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
+  background-image: -o-linear-gradient(0deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
+  background-image: linear-gradient(90deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ad3c', endColorstr='#d0d2d8',GradientType=1 );
 }
 
