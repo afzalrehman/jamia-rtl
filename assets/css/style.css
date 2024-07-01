@@ -898,7 +898,7 @@ header.style1.sticky-active nav > div > ul > li {color: #666;}
   top: 0;
   bottom: 0;
   z-index: -1;
-  background-color: #2a486c;
+  /* background-color: #2a486c; */
   opacity: .65;
 }
 .featured-cap {
@@ -1584,8 +1584,8 @@ footer {
 }
 .scl > a + a {margin-left: 5px;}
 /*===== Featured Area Style 2 =====*/
-.featured-item.style2 {padding: 180px 15px 130px;}
-.featured-item.style2::before {background-color: #0a0a0a;}
+/* .featured-item.style2 {padding: 180px 15px 130px;} */
+/* .featured-item.style2::before {background-color: #0a0a0a;} */
 .featured-area2 .owl-dots {
   position: absolute;
   left: 50%;
