@@ -88,7 +88,7 @@ ul li,
 ol li {
   font-family: Poppins;
   color:#666;
-  font-size:14px;
+  font-size:17px;
   line-height:26px;
 }
 a {color: inherit;}
@@ -739,7 +739,7 @@ header.style1.sticky-active nav > div > ul > li {color: #666;}
   background-color: #fff;
   color: #141414;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 18px;
   height: 40px;
   line-height: 40px;
   position: absolute;
@@ -772,7 +772,7 @@ header.style1.sticky-active nav > div > ul > li {color: #666;}
   background-color: #303030;
   color: #fff;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   height: 40px;
   line-height: 40px;
   position: absolute;
@@ -786,14 +786,14 @@ header.style1.sticky-active nav > div > ul > li {color: #666;}
   list-style: outside none none;
   margin-bottom: 0;
   padding-left: 0;
-  overflow-y: auto !important;
+  /* overflow-y: auto !important; */
   height: 300px;
   width: 100% !important;
 }
 .rsnp-mnu > ul > li {
   color: #fff;
   float: left;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
   position: relative;
@@ -823,7 +823,7 @@ header.style1.sticky-active nav > div > ul > li {color: #666;}
 }
 .rsnp-mnu > ul ul > li {
   color: #a4a4a4;
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 12px;
   position: relative;
   text-transform: initial;
@@ -2450,7 +2450,7 @@ footer {
   width: 100%;
 }
 .event-mta > li {
-  font-size: 13px;
+  font-size: 14px;
   color: #2f0230;
   font-weight: 500;
   float: left;
@@ -2461,7 +2461,7 @@ footer {
   text-align: center;
   margin-right: 10px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 14px;
   float: left;
   line-height: inherit;
 }
@@ -3262,7 +3262,7 @@ blockquote p i.fa {
 .srch-frm > button {
   position: absolute;
   background-color: transparent;
-  font-size: 13px;
+  font-size: 18px;
   right: 0;
   top: 0;
   bottom: 0;
@@ -3428,7 +3428,7 @@ blockquote p i.fa {
   position: relative;
   font-weight: 700;
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   padding-bottom: 13px;
 }
 .color-picker > h3::before {
@@ -3474,7 +3474,7 @@ blockquote p i.fa {
   position: relative;
   width: 35px;
 }
-.color-picker .color {background-color: #d1ad3c;}
+.color-picker .color {background-color: #2D3192;}
 .color-picker .color2 {background-color: #b57c00;}
 .color-picker .color3 {background-color: #38ab1e;}
 .color-picker .color4 {background-color: #f64243;}
@@ -4014,7 +4014,7 @@ blockquote p i.fa {
 .team-box2:hover,
 .model-close:hover
 {
-  background-color: #d1ad3c;
+  background-color: #2D3192;
 }
 
 .wdgt-box > h4:before
@@ -4025,7 +4025,7 @@ blockquote p i.fa {
   background-image: -o-linear-gradient(0deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
   background-image: -ms-linear-gradient(0deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
   background-image: linear-gradient(90deg, rgb(45, 49, 146) 0%, rgba(208,210,216,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ad3c', endColorstr='#d0d2d8',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2D3192', endColorstr='#d0d2d8',GradientType=1 );
 }
 
 
@@ -4102,7 +4102,7 @@ nav div > ul li a:focus:before,
 .expns-info > h4 a:hover,
 .expns-info > h4 a:focus
 {
-  color: #d1ad3c;
+  color: #2D3192;
 }
 
 /*===== Border Color =====*/
@@ -4114,7 +4114,7 @@ nav div > ul li a:focus:before,
 .plr-box:hover > i,
 .srv-box2:hover
 {
-  border-color: #d1ad3c;
+  border-color: #2D3192;
 }
 
 
